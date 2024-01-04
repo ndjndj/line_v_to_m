@@ -8,3 +8,6 @@ import sys
 
 LINE_CHANNEL_ACCESS_TOKEN = os.environ["LINE_CHANNEL_ACCESS_TOKEN"]
 LINE_BOT_API = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
+
+def lambda_handler(event, context):
+    return {}
