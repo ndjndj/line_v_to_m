@@ -8,4 +8,3 @@
 |picture 送信|→|movie 生成|
 |||署名付き URL 発行|
 |受信|←|署名付き URL, message 送信|
-||||
