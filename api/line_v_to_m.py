@@ -20,5 +20,8 @@ def reply(ev):
 def save_storage():
     return
 
+def create_sig_url():
+    return
+
 def lambda_handler(event, context):
     return {}
