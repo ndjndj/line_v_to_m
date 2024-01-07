@@ -17,5 +17,8 @@ def reply(ev):
         TextSendMessage(text=message)
     )
 
+def save_storage():
+    return
+
 def lambda_handler(event, context):
     return {}
