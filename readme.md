@@ -15,3 +15,5 @@
 |-|-|-|
 |line id|current-mode||
 |line id|information||
+|line id|movie-path||
+|line id|picture-path||
