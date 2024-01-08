@@ -14,7 +14,7 @@
 
 |pk|sk|item|example|description|
 |-|-|-|-|-|
-|line id|current||||
-|||status|received-movie||
-|||picture-path|line-id/picture/||
-|||movie-path|line-id/movie/||
+|line id|status||received-movie||
+|line id|active-token||202412021233321-faekv23mfgseg||
+|line id|picture-path||line-id/picture/||
+|line id|movie-path||line-id/movie/||
