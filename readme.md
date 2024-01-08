@@ -14,6 +14,7 @@
 
 |pk|sk|item|example|description|
 |-|-|-|-|-|
+|line id|information||||
 |line id|current-status||received-movie||
 |line id|current-signatured-url||||
 |line id|current-token||{yyyymmddhhmmss}-{uuid}||

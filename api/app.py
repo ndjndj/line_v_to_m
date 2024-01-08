@@ -1,7 +1,7 @@
 import os
 import json
-#import boto3
-#from boto3.dynamodb.conditions import Key
+import boto3
+from boto3.dynamodb.conditions import Key
 from linebot import LineBotApi
 from linebot.models import TextSendMessage
 import sys
@@ -16,6 +16,11 @@ if IS_TEST == 1:
 else:
     LINE_CHANNEL_ACCESS_TOKEN = os.environ["LINE_CHANNEL_ACCESS_TOKEN"]
     LINE_BOT_API = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
+
+def received_message(ev):
+    return 
+
+def 
 
 def reply(ev): 
     reply_token = ev["replyToken"]
