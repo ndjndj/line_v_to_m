@@ -10,7 +10,9 @@
 
 # table 
 
-|pk|sk|description|
-|-|-|-|
-|line id|current|{mode:"movie", movie-path: "", picture-path: [""],}|
-|line id|information||
+|pk|sk|item|example|description|
+|-|-|-|-|-|
+|line id|current||||
+|||status|received-movie||
+|||picture-path|line-id/picture/||
+|||movie-path|line-id/movie/||
