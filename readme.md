@@ -2,6 +2,8 @@
 
 |client||server|
 |-|-|-|
+|begin|→|token 生成|
+|受信|←|message 送信|
 |movie 送信|→|s3 保管|
 |受信|←|message 送信|
 |picture 送信|→|movie 生成|
