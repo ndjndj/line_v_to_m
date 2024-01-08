@@ -16,5 +16,5 @@
 |-|-|-|-|-|
 |line id|current-status||received-movie||
 |line id|active-token||yyyymmddhhmmss-uuid||
-|line id|picture-path||line-id/picture/||
-|line id|movie-path||line-id/movie/||
+|line id|picture-path||line-id/picture/active-token||
+|line id|movie-path||line-id/movie/active-token||
