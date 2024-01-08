@@ -14,7 +14,7 @@
 
 |pk|sk|item|example|description|
 |-|-|-|-|-|
-|line id|status||received-movie||
+|line id|current-status||received-movie||
 |line id|active-token||yyyymmddhhmmss-uuid||
 |line id|picture-path||line-id/picture/||
 |line id|movie-path||line-id/movie/||
