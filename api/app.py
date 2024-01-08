@@ -8,7 +8,9 @@ import sys
 
 IS_TEST = os.environ("IS_TEST")
 
-
+voxpics = boto3.resource("dynamodb").Table("voxpics")
+USER_PREFIX = "U_#"
+INFORMATION = "information"
 
 if IS_TEST == 1:
     LINE_CHANNEL_ACCESS_TOKEN = ""
@@ -18,9 +20,18 @@ else:
     LINE_BOT_API = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
 
 def received_message(ev):
-    return 
+    return ev[""]
 
-def 
+def create_user(ev):
+    user_id = ev["source"]["userId"]
+    voxpics.put_item(
+        Item={
+            "pk": f"{USER_PREFIX}{user_id}",
+            "sk": INFORMATION,
+            "line-id": user_id
+        }
+    )
+
 
 def reply(ev): 
     reply_token = ev["replyToken"]
