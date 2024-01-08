@@ -32,7 +32,6 @@ def create_user(ev):
         }
     )
 
-
 def reply(ev): 
     reply_token = ev["replyToken"]
     message = ev["message"]["text"]
