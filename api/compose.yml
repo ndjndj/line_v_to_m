@@ -1,0 +1,12 @@
+version: "3.6"
+
+services:
+  line-bot:
+    container_name: line-bot 
+    build: . 
+    volumes: 
+      - $HOME/.aws/:/root/.aws/
+    ports:
+      - "9000:8080"
+    env_file: 
+      - .env
