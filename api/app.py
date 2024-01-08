@@ -8,6 +8,8 @@ import sys
 
 IS_TEST = os.environ("IS_TEST")
 
+
+
 if IS_TEST == 1:
     LINE_CHANNEL_ACCESS_TOKEN = ""
     LINE_BOT_API = ""

@@ -8,3 +8,10 @@
 |picture 送信|→|movie 生成|
 |||署名付き URL 発行|
 |受信|←|署名付き URL, message 送信|
+
+# table 
+
+|pk|sk|description|
+|-|-|-|
+|line id|current-mode||
+|line id|information||
