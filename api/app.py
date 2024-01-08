@@ -24,4 +24,5 @@ def create_sig_url():
     return
 
 def lambda_handler(event, context):
+    print("hello")
     return {}
