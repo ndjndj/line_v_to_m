@@ -25,4 +25,4 @@ import sys
 
 def lambda_handler(event, context):
     print("hello")
-    return {}
+    return {"ret": "hello"}
